@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "581904275205",
+    "firebase_url": "https://projectkelompok-b50ae.firebaseio.com",
+    "project_id": "projectkelompok-b50ae",
+    "storage_bucket": "projectkelompok-b50ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581904275205:android:71230f8eff953c0e",
+        "android_client_info": {
+          "package_name": "com.example.capri.projectkelompok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581904275205-l3rpc1bskp5svam6i7iv0ef8rgpur7e5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.capri.projectkelompok",
+            "certificate_hash": "e5304dcfc53be5b0a0a76962a8b95f9119b4da75"
+          }
+        },
+        {
+          "client_id": "581904275205-783qfrn0tshel1464alt9lu9iflo7rkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpwU5xt70xi4qiUfeKKqiCmZ6PYly5BbA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581904275205-783qfrn0tshel1464alt9lu9iflo7rkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.capri.projectkelompok.activity.SetupActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButtonAddSetupUname"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"
+        android:layout_marginBottom="40dp"
+        app:srcCompat="@drawable/fbprofile" />
+
+    <EditText
+        android:id="@+id/editTextSetupUname"
+        android:layout_width="350dp"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/imageButtonAddSetupUname"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_outline"
+        android:padding="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Display name ..." />
+
+    <Button
+        android:id="@+id/btnAddSetupUname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_light"
+        android:text="Finish Setup"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+</RelativeLayout>

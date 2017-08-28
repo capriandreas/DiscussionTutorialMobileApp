@@ -1,0 +1,51 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imageThreadItemDetail"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/add_image"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleThreadItemDetail"
+        android:textSize="16dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:text="Thread title here ..."/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/descriptionThreadItemDetail"
+        android:padding="10dp"
+        android:textSize="14dp"
+        android:text="Thread description here"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userThreadItemDetail"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:textSize="12dp"
+        android:text="By"/>
+
+    <!--<ImageButton-->
+    <!--android:id="@+id/imageButtonLike"-->
+    <!--android:layout_width="50dp"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="#00ffffff"-->
+    <!--android:layout_weight="1"-->
+    <!--android:layout_gravity="right"-->
+    <!--app:srcCompat="@drawable/ic_thumb_black" />-->
+
+</LinearLayout>
